@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+#grid{
+	display:grid;
+	gap:5px;
+	grid-template-columns:repeat(4,auto);
+}
+div{
+	background-color:green;
+	height:50px;
+	color:white;
+	font-size:25px;
+}
+.item1{
+	grid-column:span 4;
+}
+.item2{
+	grid-row:span 4;
+	height:215px;
+}
+.item4{
+	grid-column:span 2;
+}
+.item5{
+	grid-column:span 2;
+}
+.item10{
+	grid-column:span 3;
+}
